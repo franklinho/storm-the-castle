@@ -254,7 +254,6 @@ int charLocation = 1;
         CGSize winSize = [[CCDirector sharedDirector] winSize];
         
         StartScreenScene *startScreenScene = [StartScreenScene node];
-        [[CCDirector sharedDirector] replaceScene:startScreenScene];
         
         
         [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:
